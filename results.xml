@@ -1,9 +1,304 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.479128999999999">
-<testsuite name="RadioButtons.spec.js" timestamp="2026-05-23T16:35:21.388Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.258" errors="0">
-<testcase name="Handle Radio Buttons" classname="RadioButtons.spec.js" time="10.258">
+<testsuites id="" name="" tests="22" failures="2" skipped="0" errors="0" time="93.97719099999999">
+<testsuite name="Assertions.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.229" errors="0">
+<testcase name="Assertions Demo Test" classname="Assertions.spec.js" time="13.229">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Assertions-Assertions-Demo-Test-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="CheckBoxTest.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="29.007" errors="0">
+<testcase name="Check Box Test" classname="CheckBoxTest.spec.js" time="29.007">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\CheckBoxTest-Check-Box-Test-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="2" failures="0" skipped="0" time="9.264" errors="0">
+<testcase name="has title" classname="example.spec.js" time="4.632">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-has-title-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="4.632">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-get-started-link-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Grouping.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="4" failures="0" skipped="0" time="5.677" errors="0">
+<testcase name="Group 1 › Test 1" classname="Grouping.spec.js" time="1.351">
+<system-out>
+<![CDATA[This is beforeAll hook...
+This is test 1 from Group 1
+
+[[ATTACHMENT|test-results\Grouping-Group-1-Test-1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 1 › Test 2" classname="Grouping.spec.js" time="1.342">
+<system-out>
+<![CDATA[This is test 2 from Group 1
+This is afterAll hook...
+
+[[ATTACHMENT|test-results\Grouping-Group-1-Test-2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 3" classname="Grouping.spec.js" time="1.653">
+<system-out>
+<![CDATA[This is beforeAll hook...
+This is test 3 from Group 2
+
+[[ATTACHMENT|test-results\Grouping-Group-2-Test-3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 4" classname="Grouping.spec.js" time="1.331">
+<system-out>
+<![CDATA[This is test 4 from Group 2
+This is afterAll hook...
+
+[[ATTACHMENT|test-results\Grouping-Group-2-Test-4-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="HomePageTest.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.755" errors="0">
+<testcase name="Home Page Test" classname="HomePageTest.spec.js" time="6.755">
+<system-out>
+<![CDATA[Page title is: STORE
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Locators.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.464" errors="0">
+<testcase name="Locators Test" classname="Locators.spec.js" time="9.464">
+</testcase>
+</testsuite>
+<testsuite name="LocatorsBuiltIn.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.385" errors="0">
+<testcase name="Built-in Locators Demo" classname="LocatorsBuiltIn.spec.js" time="14.385">
+</testcase>
+</testsuite>
+<testsuite name="MultipleLocators.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.445" errors="0">
+<testcase name="Multiple Locators Test" classname="MultipleLocators.spec.js" time="5.445">
+<system-out>
+<![CDATA[
+      PRODUCT STORE
+Home (current)
+Contact
+About us
+Cart
+Log in
+Log out
+
+Sign up
+
+          
+          Previous
+        
+
+          
+          Next
+        
+CATEGORIES
+Phones
+Laptops
+Monitors
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
+Sony xperia z5
+HTC One M9
+Sony vaio i5
+Sony vaio i7
+
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Mytest.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.563" errors="0">
+<testcase name="test" classname="Mytest.spec.js" time="13.563">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Mytest-test-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="PomTest.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="1" skipped="0" time="17.022" errors="0">
+<testcase name="POM Test Flow" classname="PomTest.spec.js" time="17.022">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\PomTest-POM-Test-Flow-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\PomTest-POM-Test-Flow-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\PomTest-POM-Test-Flow-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\PomTest-POM-Test-Flow-chromium\trace.zip]]
+]]>
+</system-out>
+<failure message="expect(received).toBe(expected) // Object.is equality" type="expect.toBe">
+<![CDATA[  [chromium] › PomTest.spec.js:7:5 › POM Test Flow ─────────────────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: undefined
+
+      29 |     
+      30 |     // Perform a hard assertion on the returned status [21]
+    > 31 |     expect(status).toBe(true); 
+         |                    ^
+      32 | });
+        at D:\VSCode\PlaywrightAutomation\tests\PomTest.spec.js:31:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\PomTest-POM-Test-Flow-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\PomTest-POM-Test-Flow-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\PomTest-POM-Test-Flow-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\PomTest-POM-Test-Flow-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\PomTest-POM-Test-Flow-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="RadioButtons.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.64" errors="0">
+<testcase name="Handle Radio Buttons" classname="RadioButtons.spec.js" time="10.64">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\RadioButtons-Handle-Radio-Buttons-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Screenshot.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="3" failures="0" skipped="0" time="15.132" errors="0">
+<testcase name="page screenshot" classname="Screenshot.spec.js" time="3.94">
+<system-out>
+<![CDATA[this is site test is loaded 
+
+[[ATTACHMENT|test-results\Screenshot-page-screenshot-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="full page screenshot" classname="Screenshot.spec.js" time="7.272">
+<system-out>
+<![CDATA[this is site test is loaded with full screenshot
+
+[[ATTACHMENT|test-results\Screenshot-full-page-screenshot-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="locator screenshot" classname="Screenshot.spec.js" time="3.92">
+<system-out>
+<![CDATA[this is site test is loaded with locator ss
+
+[[ATTACHMENT|test-results\Screenshot-locator-screenshot-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SoftAssertions.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="1" failures="1" skipped="0" time="11.618" errors="0">
+<testcase name="Soft Assertions Demo" classname="SoftAssertions.spec.js" time="11.618">
+<system-out>
+<![CDATA[Rest of the code is executing...
+
+[[ATTACHMENT|test-results\SoftAssertions-Soft-Assertions-Demo-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\SoftAssertions-Soft-Assertions-Demo-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\SoftAssertions-Soft-Assertions-Demo-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\SoftAssertions-Soft-Assertions-Demo-chromium\trace.zip]]
+]]>
+</system-out>
+<failure message="expect(page).toHaveTitle(expected) failed" type="expect.toHaveTitle">
+<![CDATA[  [chromium] › SoftAssertions.spec.js:3:1 › Soft Assertions Demo ───────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "Store123"
+    Received: "STORE"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "soft toHaveTitle" with timeout 5000ms
+        12 × unexpected value "STORE"
+
+
+       8 |     // Implementation of Soft Assertions
+       9 |     // Even if the first assertion fails, the subsequent ones will still execute
+    > 10 |     await expect.soft(page).toHaveTitle('Store123'); // Intentionally failing title [7, 8]
+         |                             ^
+      11 |     await expect.soft(page).toHaveURL('https://www.demoblaze.com/index.html'); // [4, 7]
+      12 |     
+      13 |     const logo = page.locator('#nava'); 
+        at D:\VSCode\PlaywrightAutomation\tests\SoftAssertions.spec.js:10:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\SoftAssertions-Soft-Assertions-Demo-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\SoftAssertions-Soft-Assertions-Demo-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\SoftAssertions-Soft-Assertions-Demo-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\SoftAssertions-Soft-Assertions-Demo-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\SoftAssertions-Soft-Assertions-Demo-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="Tags.spec.js" timestamp="2026-05-24T05:21:27.575Z" hostname="chromium" tests="3" failures="0" skipped="0" time="4.034" errors="0">
+<testcase name="test1@sanity" classname="Tags.spec.js" time="1.699">
+<system-out>
+<![CDATA[this is sanity 1 test
+
+[[ATTACHMENT|test-results\Tags-test1-sanity-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="test3@reg" classname="Tags.spec.js" time="1.117">
+<system-out>
+<![CDATA[this is regression 3 test
+
+[[ATTACHMENT|test-results\Tags-test3-reg-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="test2@sanity" classname="Tags.spec.js" time="1.218">
+<system-out>
+<![CDATA[this is sanity 2 test
+
+[[ATTACHMENT|test-results\Tags-test2-sanity-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

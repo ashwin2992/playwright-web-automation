@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "webkit",
         "name": "webkit",
@@ -107,6 +107,783 @@
   },
   "suites": [
     {
+      "title": "Assertions.spec.js",
+      "file": "Assertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Assertions Demo Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13229,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:21:29.238Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Assertions-Assertions-Demo-Test-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "add8f3c04cdcd95add13-7f90d9792cd1f3bd3ee6",
+          "file": "Assertions.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "CheckBoxTest.spec.js",
+      "file": "CheckBoxTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check Box Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 29007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:21:29.266Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\CheckBoxTest-Check-Box-Test-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c0f199928bb0fd1977c9-6543e33ba2f0b6db3ab2",
+          "file": "CheckBoxTest.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "example.spec.js",
+      "file": "example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:21:43.769Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\example-has-title-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-fe3fbe2603922999b144",
+          "file": "example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:21:48.513Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\example-get-started-link-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-18206e4c4b88f5cba6b3",
+          "file": "example.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Grouping.spec.js",
+      "file": "Grouping.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Group 1",
+          "file": "Grouping.spec.js",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1351,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "This is beforeAll hook...\n"
+                        },
+                        {
+                          "text": "This is test 1 from Group 1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-24T05:21:53.251Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Grouping-Group-1-Test-1-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-eb9f493f11bf5e20460e",
+              "file": "Grouping.spec.js",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "Test 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1342,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "This is test 2 from Group 1\n"
+                        },
+                        {
+                          "text": "This is afterAll hook...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-24T05:21:54.798Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Grouping-Group-1-Test-2-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-41b46930a4c4b34a414f",
+              "file": "Grouping.spec.js",
+              "line": 20,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Group 2",
+          "file": "Grouping.spec.js",
+          "line": 27,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test 3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1653,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "This is beforeAll hook...\n"
+                        },
+                        {
+                          "text": "This is test 3 from Group 2\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-24T05:21:56.418Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Grouping-Group-2-Test-3-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-d5a1cb6c7fead7cb09d7",
+              "file": "Grouping.spec.js",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "Test 4",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1331,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "This is test 4 from Group 2\n"
+                        },
+                        {
+                          "text": "This is afterAll hook...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-24T05:21:58.269Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Grouping-Group-2-Test-4-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-84f33e9ef223a8a5d3a6",
+              "file": "Grouping.spec.js",
+              "line": 33,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "HomePageTest.spec.js",
+      "file": "HomePageTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Home Page Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6755,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Page title is: STORE\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:21:59.510Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8825c0a621355ee16b0d-bc14bb11c615d634bed3",
+          "file": "HomePageTest.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Locators.spec.js",
+      "file": "Locators.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Locators Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:00.147Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5e83d96c57501bba7f-0949265b5d05ba08432b",
+          "file": "Locators.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "LocatorsBuiltIn.spec.js",
+      "file": "LocatorsBuiltIn.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Built-in Locators Demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14385,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:06.362Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aac455b17a91c316b4b4-61d772c8ce871c779d69",
+          "file": "LocatorsBuiltIn.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "MultipleLocators.spec.js",
+      "file": "MultipleLocators.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Multiple Locators Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5445,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\n      PRODUCT STORE\n"
+                    },
+                    {
+                      "text": "Home (current)\n"
+                    },
+                    {
+                      "text": "Contact\n"
+                    },
+                    {
+                      "text": "About us\n"
+                    },
+                    {
+                      "text": "Cart\n"
+                    },
+                    {
+                      "text": "Log in\n"
+                    },
+                    {
+                      "text": "Log out\n"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "text": "Sign up\n"
+                    },
+                    {
+                      "text": "\n          \n          Previous\n        \n"
+                    },
+                    {
+                      "text": "\n          \n          Next\n        \n"
+                    },
+                    {
+                      "text": "CATEGORIES\n"
+                    },
+                    {
+                      "text": "Phones\n"
+                    },
+                    {
+                      "text": "Laptops\n"
+                    },
+                    {
+                      "text": "Monitors\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "Nokia lumia 1520\n"
+                    },
+                    {
+                      "text": "Nexus 6\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s7\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
+                    },
+                    {
+                      "text": "Sony xperia z5\n"
+                    },
+                    {
+                      "text": "HTC One M9\n"
+                    },
+                    {
+                      "text": "Sony vaio i5\n"
+                    },
+                    {
+                      "text": "Sony vaio i7\n\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:09.686Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf40d1c6c0483209eff2-731c93dfe2d84f296682",
+          "file": "MultipleLocators.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Mytest.spec.js",
+      "file": "Mytest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13563,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:15.211Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Mytest-test-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "575db4fb439685920f2d-9db341157917d76db15f",
+          "file": "Mytest.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "PomTest.spec.js",
+      "file": "PomTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "POM Test Flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 17022,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at D:\\VSCode\\PlaywrightAutomation\\tests\\PomTest.spec.js:31:20",
+                    "location": {
+                      "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\PomTest.spec.js",
+                      "column": 20,
+                      "line": 31
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 29 |\u001b[39m     \n \u001b[90m 30 |\u001b[39m     \u001b[90m// Perform a hard assertion on the returned status [21]\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m     expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\PomTest.spec.js",
+                        "column": 20,
+                        "line": 31
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\n\u001b[0m \u001b[90m 29 |\u001b[39m     \n \u001b[90m 30 |\u001b[39m     \u001b[90m// Perform a hard assertion on the returned status [21]\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m     expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\VSCode\\PlaywrightAutomation\\tests\\PomTest.spec.js:31:20\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:20.935Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\PomTest-POM-Test-Flow-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\PomTest-POM-Test-Flow-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\PomTest-POM-Test-Flow-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\PomTest-POM-Test-Flow-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\PomTest.spec.js",
+                    "column": 20,
+                    "line": 31
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "acb4ce7beb2e9c793c9a-5192995eede503f39330",
+          "file": "PomTest.spec.js",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "RadioButtons.spec.js",
       "file": "RadioButtons.spec.js",
       "column": 0,
@@ -128,12 +905,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 10258,
+                  "duration": 10640,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-23T16:35:22.544Z",
+                  "startTime": "2026-05-24T05:22:28.849Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -153,15 +930,392 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "Screenshot.spec.js",
+      "file": "Screenshot.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "page screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3940,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is site test is loaded \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:39.585Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Screenshot-page-screenshot-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1de06d0f951b7b9b9edd-72cdd89c5186c10bc42e",
+          "file": "Screenshot.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "full page screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7272,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is site test is loaded with full screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:46.496Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Screenshot-full-page-screenshot-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1de06d0f951b7b9b9edd-b2a2cc254643a9887d2e",
+          "file": "Screenshot.spec.js",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "locator screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3920,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is site test is loaded with locator ss\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:43.622Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Screenshot-locator-screenshot-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1de06d0f951b7b9b9edd-4ba16deafdb0c629a2f1",
+          "file": "Screenshot.spec.js",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "SoftAssertions.spec.js",
+      "file": "SoftAssertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Soft Assertions Demo",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 11618,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"S\u001b[7mtore123\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"S\u001b[7mTORE\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"soft toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    12 × unexpected value \"STORE\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"S\u001b[7mtore123\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"S\u001b[7mTORE\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"soft toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    12 × unexpected value \"STORE\"\u001b[22m\n\n    at D:\\VSCode\\PlaywrightAutomation\\tests\\SoftAssertions.spec.js:10:29",
+                    "location": {
+                      "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\SoftAssertions.spec.js",
+                      "column": 29,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[90m// Implementation of Soft Assertions\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[90m// Even if the first assertion fails, the subsequent ones will still execute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Store123'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Intentionally failing title [7, 8]\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// [4, 7]\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m     \u001b[36mconst\u001b[39m logo \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#nava'\u001b[39m)\u001b[33m;\u001b[39m \u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\SoftAssertions.spec.js",
+                        "column": 29,
+                        "line": 10
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"S\u001b[7mtore123\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"S\u001b[7mTORE\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"soft toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    12 × unexpected value \"STORE\"\u001b[22m\n\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[90m// Implementation of Soft Assertions\u001b[39m\n \u001b[90m  9 |\u001b[39m     \u001b[90m// Even if the first assertion fails, the subsequent ones will still execute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Store123'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Intentionally failing title [7, 8]\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// [4, 7]\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m     \u001b[36mconst\u001b[39m logo \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'#nava'\u001b[39m)\u001b[33m;\u001b[39m \u001b[0m\n\u001b[2m    at D:\\VSCode\\PlaywrightAutomation\\tests\\SoftAssertions.spec.js:10:29\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Rest of the code is executing...\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:47.725Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\SoftAssertions-Soft-Assertions-Demo-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\SoftAssertions-Soft-Assertions-Demo-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\SoftAssertions-Soft-Assertions-Demo-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\SoftAssertions-Soft-Assertions-Demo-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\VSCode\\PlaywrightAutomation\\tests\\SoftAssertions.spec.js",
+                    "column": 29,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "891e665e3bcdcb9bc807-bad0f1bb4c6c87245e82",
+          "file": "SoftAssertions.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Tags.spec.js",
+      "file": "Tags.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test1@sanity",
+          "ok": true,
+          "tags": [
+            "sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1699,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is sanity 1 test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:55.843Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Tags-test1-sanity-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-bdda69023044a9622737",
+          "file": "Tags.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "test3@reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1117,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is regression 3 test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:57.625Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Tags-test3-reg-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-4499fc016b74ad523c12",
+          "file": "Tags.spec.js",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "test2@sanity",
+          "ok": true,
+          "tags": [
+            "sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1218,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this is sanity 2 test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-24T05:22:58.824Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\VSCode\\PlaywrightAutomation\\test-results\\Tags-test2-sanity-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-df0520e1b9754ecce781",
+          "file": "Tags.spec.js",
+          "line": 14,
+          "column": 5
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-23T16:35:21.337Z",
-    "duration": 13479.128999999999,
-    "expected": 1,
+    "startTime": "2026-05-24T05:21:27.367Z",
+    "duration": 93977.19099999999,
+    "expected": 20,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 2,
     "flaky": 0
   }
 }
