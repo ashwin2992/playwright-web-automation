@@ -11,7 +11,7 @@ test.afterAll(async () => {
 });
 
 // Step 2: Use a 'describe' block to create a logical group (e.g., Group 1)
-test.describe.only('Group 1', () => { // [6]
+test.describe('Group 1', () => { // [6]
 
     test('Test 1', async ({ page }) => { // [7]
         console.log('This is test 1 from Group 1'); // [8]
