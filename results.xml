@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.479128999999999">
+<testsuite name="RadioButtons.spec.js" timestamp="2026-05-23T16:35:21.388Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.258" errors="0">
+<testcase name="Handle Radio Buttons" classname="RadioButtons.spec.js" time="10.258">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\RadioButtons-Handle-Radio-Buttons-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
