@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'; // [5, 6]
 // Step 1: Import the external Page Object classes [7, 8]
-import { LoginPage } from '../pages/loginPage';
+import { LoginPage } from '../pages/LoginPage';
 import { HomePage } from '../pages/HomePage';
 import { CartPage } from '../pages/CartPage';
 
