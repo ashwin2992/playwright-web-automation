@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'; // [5, 6]
 // Step 1: Import the external Page Object classes [7, 8]
 import { LoginPage } from '../pages/loginPage';
-import { HomePage } from '../pages/homePage';
-import { CartPage } from '../pages/cartPage';
+import { HomePage } from '../pages/HomePage';
+import { CartPage } from '../pages/CartPage';
 
 test('POM Test Flow', async ({ page }) => { // [9]
 
