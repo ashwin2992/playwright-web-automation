@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "demo-login-site;successful-login-to-source-demo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "successful login to source demo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 400559800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the source demo login page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2690586200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login using a standard user credentials",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526177099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the product page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39244799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 539366000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "demo-login-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "demo login site",
+    "tags": [],
+    "uri": "src\\test\\features\\Login.feature"
+  }
+]
